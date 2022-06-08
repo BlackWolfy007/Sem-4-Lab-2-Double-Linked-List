@@ -110,18 +110,9 @@ void ListPrint(DoubleLinkedList* list) {
     
 }
 
-
-
-void Search(char* arr[]) {
-    int counter = 0;
-    for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++) {
-
-    }
-}
-
 void main()
 {
-   /* DoubleLinkedList* list = Init(15);
+    DoubleLinkedList* list = Init(15);
     ListPrint(list);
     printf("\n");
     Append(list, 20);
@@ -142,11 +133,7 @@ void main()
     printf("\n");
     list = DeleteHead(list);
     ListPrint(list);
-    printf("\n");*/
-    char arr_good[20] = "#gfdjklkl fg glsk#";
-    char arr_bad[21] = "#fgsdldsdfl # fkdsdk#";
+    printf("\n");
     
-    Search(arr_good);
-    Search(arr_bad);
     //printf("Hello!");
 }
